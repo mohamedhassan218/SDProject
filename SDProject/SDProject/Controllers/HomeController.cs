@@ -18,10 +18,45 @@ namespace SDProject.Controllers
             return View();
         }
 
+        public IActionResult cases()
+        {
+            return View();
+        }
+
+        public IActionResult create()
+        {
+            return View();
+        }
+
+        public IActionResult data()
+        {
+            return View();
+        }
+
+        public IActionResult index2()
+        {
+            return View();
+        }
+
+        public IActionResult index_2()
+        {
+            return View();
+        }
+
+        public IActionResult info()
+        {
+            return View();
+        }
+
+        public IActionResult report()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();
         }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
