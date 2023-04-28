@@ -5,8 +5,20 @@
       "PackagePath": "staticwebassets\\SDProject.bundle.scp.css"
     },
     {
+      "Id": "C:\\learning\\SDProject\\SDProject\\SDProject\\SDProject\\wwwroot\\css\\cases.css",
+      "PackagePath": "staticwebassets\\css\\cases.css"
+    },
+    {
+      "Id": "C:\\learning\\SDProject\\SDProject\\SDProject\\SDProject\\wwwroot\\css\\report.css",
+      "PackagePath": "staticwebassets\\css\\report.css"
+    },
+    {
       "Id": "C:\\learning\\SDProject\\SDProject\\SDProject\\SDProject\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\learning\\SDProject\\SDProject\\SDProject\\SDProject\\wwwroot\\css\\style_2.css",
+      "PackagePath": "staticwebassets\\css\\style_2.css"
     },
     {
       "Id": "C:\\learning\\SDProject\\SDProject\\SDProject\\SDProject\\wwwroot\\favicon.ico",

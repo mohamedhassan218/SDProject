@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JkXhjPGbwYBfnhdEiQldSN5JeusofF4vn26m2FFUUVc=",
+  "Hash": "b+VwRVd+aDlXe61l4iiizdcHmMzvR77dp/HeXftUoOI=",
   "Source": "SDProject",
   "BasePath": "_content/SDProject",
   "Mode": "Default",
@@ -51,6 +51,40 @@
       "OriginalItemSpec": "C:\\learning\\SDProject\\SDProject\\SDProject\\SDProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SDProject.bundle.scp.css"
     },
     {
+      "Identity": "C:\\learning\\SDProject\\SDProject\\SDProject\\SDProject\\wwwroot\\css\\cases.css",
+      "SourceId": "SDProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\learning\\SDProject\\SDProject\\SDProject\\SDProject\\wwwroot\\",
+      "BasePath": "_content/SDProject",
+      "RelativePath": "css/cases.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\cases.css"
+    },
+    {
+      "Identity": "C:\\learning\\SDProject\\SDProject\\SDProject\\SDProject\\wwwroot\\css\\report.css",
+      "SourceId": "SDProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\learning\\SDProject\\SDProject\\SDProject\\SDProject\\wwwroot\\",
+      "BasePath": "_content/SDProject",
+      "RelativePath": "css/report.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\report.css"
+    },
+    {
       "Identity": "C:\\learning\\SDProject\\SDProject\\SDProject\\SDProject\\wwwroot\\css\\site.css",
       "SourceId": "SDProject",
       "SourceType": "Discovered",
@@ -66,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\learning\\SDProject\\SDProject\\SDProject\\SDProject\\wwwroot\\css\\style_2.css",
+      "SourceId": "SDProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\learning\\SDProject\\SDProject\\SDProject\\SDProject\\wwwroot\\",
+      "BasePath": "_content/SDProject",
+      "RelativePath": "css/style_2.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style_2.css"
     },
     {
       "Identity": "C:\\learning\\SDProject\\SDProject\\SDProject\\SDProject\\wwwroot\\favicon.ico",

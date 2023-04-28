@@ -18,37 +18,37 @@ namespace SDProject.Controllers
             return View();
         }
 
-        public IActionResult cases()
+        public IActionResult Cases()
         {
             return View();
         }
 
-        public IActionResult create()
+        public IActionResult Create()
         {
             return View();
         }
 
-        public IActionResult data()
+        public IActionResult Data()
         {
             return View();
         }
 
-        public IActionResult index2()
+        public IActionResult Index2()
         {
             return View();
         }
 
-        public IActionResult index_2()
+        public IActionResult Index3()
         {
             return View();
         }
 
-        public IActionResult info()
+        public IActionResult Information()
         {
             return View();
         }
 
-        public IActionResult report()
+        public IActionResult Report()
         {
             return View();
         }
