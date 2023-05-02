@@ -4,7 +4,7 @@ using System.Diagnostics;
 
 namespace SDProject.Controllers
 {
-    //second commit from Abdelrahman
+    
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
