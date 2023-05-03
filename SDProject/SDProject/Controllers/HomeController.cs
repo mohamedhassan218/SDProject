@@ -4,9 +4,6 @@ using System.Diagnostics;
 
 namespace SDProject.Controllers
 {
-    /// <summary>
-    /// 
-    /// </summary>
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -36,12 +33,12 @@ namespace SDProject.Controllers
             return View();
         }
 
-        public IActionResult Index2()
+        public IActionResult Login()
         {
             return View();
         }
 
-        public IActionResult Index3()
+        public IActionResult Inspector()
         {
             return View();
         }
@@ -51,15 +48,15 @@ namespace SDProject.Controllers
             return View();
         }
 
-        public IActionResult Report()
-        {
-            return View();
-        }
+       
         public IActionResult Privacy()
         {
             return View();
         }
-
+        public IActionResult Report()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
