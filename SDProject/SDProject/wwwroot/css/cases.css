@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url("Help-2.jpg");
+    background-image: url('help-2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

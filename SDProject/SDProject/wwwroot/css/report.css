@@ -3,18 +3,17 @@
 }
 
 body {
-    background-image: url("Help-2.jpg");
+    background-image: url('help-2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-
 }
 
 .container {
     background: rgba(14, 176, 208, 0.2);
     width: 400px;
-    height: 600px;
+    height: 500px;
     display: flex;
     margin: auto;
     text-align: center;
