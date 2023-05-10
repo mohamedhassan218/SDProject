@@ -7,7 +7,7 @@ namespace SDProject.Models
     public class Case
     {
         [Key]
-        public int Id { get; set; }
+        public int CaseId { get; set; }
         [Required]
         public string Name { get; set; }
         [Required]
