@@ -9,69 +9,77 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SDProject
 build_property.RootNamespace = SDProject
-build_property.ProjectDir = C:\Users\hager ahmed\Downloads\my-githup\SDProject\SDProject\SDProject\
+build_property.ProjectDir = C:\learning\SDProject\SDProject\SDProject\SDProject\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\hager ahmed\Downloads\my-githup\SDProject\SDProject\SDProject
+build_property.MSBuildProjectDirectory = C:\learning\SDProject\SDProject\SDProject\SDProject
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/hager ahmed/Downloads/my-githup/SDProject/SDProject/SDProject/Views/Home/Cases.cshtml]
+[C:/learning/SDProject/SDProject/SDProject/SDProject/Views/Home/Cases.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXNlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hager ahmed/Downloads/my-githup/SDProject/SDProject/SDProject/Views/Home/Create.cshtml]
+[C:/learning/SDProject/SDProject/SDProject/SDProject/Views/Home/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hager ahmed/Downloads/my-githup/SDProject/SDProject/SDProject/Views/Home/Data.cshtml]
+[C:/learning/SDProject/SDProject/SDProject/SDProject/Views/Home/Data.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hager ahmed/Downloads/my-githup/SDProject/SDProject/SDProject/Views/Home/Index.cshtml]
+[C:/learning/SDProject/SDProject/SDProject/SDProject/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hager ahmed/Downloads/my-githup/SDProject/SDProject/SDProject/Views/Home/Information.cshtml]
+[C:/learning/SDProject/SDProject/SDProject/SDProject/Views/Home/Information.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmZvcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hager ahmed/Downloads/my-githup/SDProject/SDProject/SDProject/Views/Home/Inspector.cshtml]
+[C:/learning/SDProject/SDProject/SDProject/SDProject/Views/Home/Inspector.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbnNwZWN0b3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hager ahmed/Downloads/my-githup/SDProject/SDProject/SDProject/Views/Home/Login.cshtml]
+[C:/learning/SDProject/SDProject/SDProject/SDProject/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hager ahmed/Downloads/my-githup/SDProject/SDProject/SDProject/Views/Home/Privacy.cshtml]
+[C:/learning/SDProject/SDProject/SDProject/SDProject/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hager ahmed/Downloads/my-githup/SDProject/SDProject/SDProject/Views/Home/Report.cshtml]
+[C:/learning/SDProject/SDProject/SDProject/SDProject/Views/Home/Report.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXBvcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hager ahmed/Downloads/my-githup/SDProject/SDProject/SDProject/Views/Index.cshtml]
+[C:/learning/SDProject/SDProject/SDProject/SDProject/Views/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hager ahmed/Downloads/my-githup/SDProject/SDProject/SDProject/Views/Shared/Error.cshtml]
+[C:/learning/SDProject/SDProject/SDProject/SDProject/Views/loginregister/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbG9naW5yZWdpc3RlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/learning/SDProject/SDProject/SDProject/SDProject/Views/loginregister/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbG9naW5yZWdpc3RlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/learning/SDProject/SDProject/SDProject/SDProject/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hager ahmed/Downloads/my-githup/SDProject/SDProject/SDProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/learning/SDProject/SDProject/SDProject/SDProject/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hager ahmed/Downloads/my-githup/SDProject/SDProject/SDProject/Views/_ViewImports.cshtml]
+[C:/learning/SDProject/SDProject/SDProject/SDProject/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hager ahmed/Downloads/my-githup/SDProject/SDProject/SDProject/Views/_ViewStart.cshtml]
+[C:/learning/SDProject/SDProject/SDProject/SDProject/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hager ahmed/Downloads/my-githup/SDProject/SDProject/SDProject/Views/Shared/_Layout.cshtml]
+[C:/learning/SDProject/SDProject/SDProject/SDProject/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-jve3csrrnw
