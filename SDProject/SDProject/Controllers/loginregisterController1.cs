@@ -23,7 +23,7 @@ namespace SDProject.Controllers
         {
             if (ModelState.IsValid)
             {
-                _dbcontext.caseInspectors.Add(account);
+                _dbcontext.inspectors.Add(account);
                 _dbcontext.SaveChanges();
                 return RedirectToAction("Data", "Home");
             }
@@ -34,7 +34,7 @@ namespace SDProject.Controllers
         {
             if (ModelState.IsValid)
             {
-              var userEmail=  _dbcontext.caseInspectors.FirstOrDefault(u => u.Email == user.Email);
+              var userEmail=  _dbcontext.inspectors.FirstOrDefault(u => u.Email == user.Email);
 
                 if (userEmail != null && user.Passward == user.Passward)
                 {

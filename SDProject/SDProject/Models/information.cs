@@ -22,5 +22,7 @@ namespace SDProject.Models
         public String PhoneNumber { set; get; }
         [Required(ErrorMessage = "Please enter the monthly earning.")]
         public float MonthlyEarning { set; get; }
+        public String Diseases { set; get; }
+        public String GeneralNotes { set; get; }
     }
 }
