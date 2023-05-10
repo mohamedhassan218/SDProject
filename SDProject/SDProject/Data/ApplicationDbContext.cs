@@ -8,6 +8,8 @@ namespace SDProject.Data
         {
 
         }
-        public DbSet<CaseInspector> caseInspectors { get; set; }
+        public DbSet<login> logins { get; set; }
+        public DbSet<registeration> registerations { get; set; }
+
     }
 }
