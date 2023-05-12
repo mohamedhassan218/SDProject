@@ -2,7 +2,7 @@
 using SDProject.Data;
 using SDProject.Models;
 using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
+
 namespace SDProject.Controllers
 {
     public class loginregisterController1 : Controller
@@ -23,20 +23,20 @@ namespace SDProject.Controllers
         {
             if (ModelState.IsValid)
             {
-                _dbcontext.inspectors.Add(account);
+                _dbcontext.Inspectors.Add(account);
                 _dbcontext.SaveChanges();
                 return RedirectToAction("Data", "Home");
             }
             return View(account);
         }
         [HttpPost]
-        public IActionResult Login (login user)
+        public IActionResult Login (CaseInspector user)
         {
             if (ModelState.IsValid)
             {
-              var userEmail=  _dbcontext.inspectors.FirstOrDefault(u => u.Email == user.Email);
+              var userEmail=  _dbcontext.Inspectors.FirstOrDefault(u => u.Email == user.Email);
 
-                if (userEmail != null && user.Passward == user.Passward)
+                if (userEmail != null && user.Password == user.Password)
                 {
                     if (user.Email.Substring(0, 5) == "admin")
                     {
