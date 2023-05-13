@@ -7,8 +7,10 @@ namespace SDProject.Models
     public class Case
     {
         [Key]
+        [Display(Name = "Case Id")]
         public int CaseId { get; set; }
         [Required]
+        [Display(Name = "Name")]
         public string FirstName { get; set; }
         [Required]
         public string LastName { get; set; }
@@ -17,6 +19,7 @@ namespace SDProject.Models
         [Required]
         public int FamilySize { get; set; }
         [Required]
+        [Display(Name = "Age")]
         public int Age { get; set; }
         [Required]
         public bool IfMale { get; set; }
