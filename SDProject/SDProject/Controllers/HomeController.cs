@@ -3,9 +3,7 @@ using SDProject.Models;
 using System.Diagnostics;
 
 namespace SDProject.Controllers
-{
-    // test repo
-    // test final 
+{ 
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
