@@ -1,6 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Diagnostics.CodeAnalysis;
 
 namespace SDProject.Models
 {
@@ -8,14 +7,16 @@ namespace SDProject.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int AdminId { get; set; }
-        [Required]
+        public int Id { get; set; }
+        [Required(ErrorMessage ="You must enter a name.")]
         public string Name { get; set; }
-        [Required]
-        public string Email{ get; set; }
-        [Required]
+        [Required(ErrorMessage ="You must enter an Email.")]
+        [EmailAddress]
+        public string Email { get; set; }
+        [Required(ErrorMessage ="You must enter a password.")] 
         public string Password { get; set; }
         [Required]
-        public float Salary { get; set; }
+        [Compare("Password", ErrorMessage = "Not Match")]
+        public string ConfirmPassword { get; set; }
     }
 }

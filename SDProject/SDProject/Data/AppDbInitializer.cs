@@ -19,26 +19,12 @@ namespace SDProject.Data
                         new Admin()
                         {
                             Name = "Ahmed Belhaj",
-                            Email = "admin1@charity.com",
-                            Salary = 2200
+                            Email = "admin1@charity.com"
                         },
                         new Admin()
                         {
-                            Name = "Ahmed Sayed Zizo",
-                            Email = "admin2@charity.com",
-                            Salary = 4000
-                        },
-                        new Admin()
-                        {
-                            Name = "Ferjani Sassi",
-                            Email = "admin3@charity.com",
-                            Salary = 3000
-                        },
-                        new Admin()
-                        {
-                            Name = "Achraf Ben Charki﻿",
-                            Email = "admin4@charity.com",
-                            Salary = 3000
+                            Name = "Ahmed Zizo",
+                            Email = "admin2@charity.com"
                         }
                     });
                     context.SaveChanges();
