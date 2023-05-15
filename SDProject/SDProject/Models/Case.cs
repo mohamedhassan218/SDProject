@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using SDProject.Data.Enums;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -22,7 +23,7 @@ namespace SDProject.Models
         [Display(Name = "Age")]
         public int Age { get; set; }
         [Required]
-        public bool IfMale { get; set; }
+        public Gender CaseGender { get; set; }
         [Required]
         public string PhoneNumber { get; set; }
         public float MonthlyEarnings { get; set; }
