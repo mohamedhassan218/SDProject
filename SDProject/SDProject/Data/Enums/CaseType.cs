@@ -4,6 +4,7 @@
     {
         Poor = 1,
         Debtor,
-        ChronicDiseasePatient
+        ChronicDiseasePatient, 
+        Others
     }
 }

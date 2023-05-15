@@ -8,7 +8,6 @@ namespace SDProject.Controllers.Inspector
         {
             return RedirectToAction("Startup");
         }
-
         public IActionResult Startup()
         {
             return View();
