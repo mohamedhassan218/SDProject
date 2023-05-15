@@ -24,6 +24,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/learning/SDProject/SDProject/SDProject/SDProject/Views/Account/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/learning/SDProject/SDProject/SDProject/SDProject/Views/Account/Signup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWdudXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -44,16 +48,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5mb3JtYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/learning/SDProject/SDProject/SDProject/SDProject/Views/Admin/Inspectors.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5zcGVjdG9ycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/learning/SDProject/SDProject/SDProject/SDProject/Views/Admin/Reports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmVwb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/learning/SDProject/SDProject/SDProject/SDProject/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/learning/SDProject/SDProject/SDProject/SDProject/Views/Home/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/learning/SDProject/SDProject/SDProject/SDProject/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/learning/SDProject/SDProject/SDProject/SDProject/Views/Home/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWduSW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/learning/SDProject/SDProject/SDProject/SDProject/Views/Index.cshtml]
@@ -70,14 +82,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/learning/SDProject/SDProject/SDProject/SDProject/Views/Inspector/Report.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zcGVjdG9yXFJlcG9ydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/learning/SDProject/SDProject/SDProject/SDProject/Views/loginregister/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbG9naW5yZWdpc3RlclxDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/learning/SDProject/SDProject/SDProject/SDProject/Views/loginregister/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbG9naW5yZWdpc3RlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/learning/SDProject/SDProject/SDProject/SDProject/Views/Shared/Error.cshtml]

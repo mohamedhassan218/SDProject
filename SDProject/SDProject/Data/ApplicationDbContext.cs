@@ -11,6 +11,5 @@ namespace SDProject.Data
         public DbSet<Report> Reports { get; set; }
         public DbSet<Admin> Admins { get; set; }
         public DbSet<Case> Cases { get; set; }
-        public DbSet<SignUpAdmin> SignUpAdmins { get; set;}
     }
 }
