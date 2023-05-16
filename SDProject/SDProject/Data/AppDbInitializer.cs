@@ -9,9 +9,7 @@ namespace SDProject.Data
             using (var serviceScope = app.ApplicationServices.CreateScope())
             {
                 var context = serviceScope.ServiceProvider.GetService<ApplicationDbContext>();
-
                 context.Database.EnsureCreated();
-
                 if (!context.Admins.Any())
                 {
                     context.Admins.AddRange(new List<Admin>
@@ -19,12 +17,16 @@ namespace SDProject.Data
                         new Admin()
                         {
                             Name = "Ahmed Belhaj",
-                            Email = "admin1@charity.com"
+                            Email = "admin1@charity.com", 
+                            Password = "123456",
+                            ConfirmPassword = "123456"
                         },
                         new Admin()
                         {
-                            Name = "Ahmed Zizo",
-                            Email = "admin2@charity.com"
+                            Name = "Ahmed Sayed Zizo",
+                            Email = "admin2@charity.com",
+                            Password = "123456", 
+                            ConfirmPassword = "123456"
                         }
                     });
                     context.SaveChanges();
