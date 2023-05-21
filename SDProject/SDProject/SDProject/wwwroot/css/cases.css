@@ -1,0 +1,75 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url('help-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.table {
+    border: 1px;
+}
+
+table {
+    margin-top: 25px;
+    margin-left: 15px;
+    width: 90%;
+    border-spacing: 2px;
+    text-align: center;
+
+}
+
+table td {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: rgb(0, 13, 15) solid 1px;
+    color: rgb(22, 15, 1);
+    font-weight: bold;
+    font-size: 24;
+    border-radius: 10px;
+
+}
+
+table thead td {
+    border: rgba(1, 39, 46, 1) solid 1px;
+    color: rgb(1, 33, 39);
+    font-weight: bold;
+    text-align: center;
+    background: rgba(14, 176, 208, 0.4);
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+table .id {
+    direction: ltr;
+}
+
+table .name {
+    direction: rtl;
+}
+
+table .id {
+    direction: ltr;
+}
+
+img {
+    margin-left: 90%;
+}
+
+.notifi_icon {
+
+    margin-top: 0;
+    display: inline;
+}
+
+h1 {
+    display: inline;
+}
