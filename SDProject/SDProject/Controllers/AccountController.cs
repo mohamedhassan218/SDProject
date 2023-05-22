@@ -32,7 +32,7 @@ namespace SDProject.Controllers.Inspector
         }
         public IActionResult AsAdmin()
         {
-            return View( );
+            return View();
         }
        
         // Specified to the Admin.

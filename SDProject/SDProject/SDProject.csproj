@@ -36,4 +36,8 @@
     <None Include="wwwroot\css\style_2.css" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
 </Project>

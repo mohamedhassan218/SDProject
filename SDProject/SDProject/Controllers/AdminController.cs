@@ -6,9 +6,11 @@ namespace SDProject.Controllers.Inspector
     public class AdminController : Controller
     {
         private readonly ApplicationDbContext _context;
-        public AdminController(ApplicationDbContext context)
+        private readonly IHostEnvironment _environment;
+        public AdminController(ApplicationDbContext context, IHostEnvironment environment)
         {
             _context = context;
+            _environment = environment;
         }
         public IActionResult Index()
         {
@@ -26,16 +28,27 @@ namespace SDProject.Controllers.Inspector
             return View();
         }
         [HttpPost]
-        public IActionResult Create(CaseInspector inspector)
+        [ValidateAntiForgeryToken]  // to more security
+        public async Task<IActionResult> Create(CaseInspector inspector, IFormFile img_file)
         {
-            if (ModelState.IsValid)
+            // to create Images folder in the project Path.
+            string path = "wwwroot/images/"; // wwwroot/Img/
+            if (!Directory.Exists(path))
             {
-                _context.Add(inspector);
-                _context.SaveChanges();
-                return RedirectToAction("Index", "Admin");
+                Directory.CreateDirectory(path);
             }
-            return View(inspector);
+            if (img_file != null)
+            {
+                path = Path.Combine(path, img_file.FileName); // for exmple : /Img/Photoname.png
+                using (var stream = new FileStream(path, FileMode.Create))
+                {
+                    await img_file.CopyToAsync(stream);
+                    ViewBag.Message = string.Format("<b>{0}</b> uploaded.</br>", img_file.FileName.ToString());
+                }
+            }
+            return View();
         }
+
         // Add New Case.
         [HttpGet]
         public IActionResult Information()

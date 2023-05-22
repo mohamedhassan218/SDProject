@@ -21,7 +21,7 @@ namespace SDProject.Models
         public float Salary{ get; set; }
         // Image attribute
         [AllowNull]
-        public byte[] ImageData { get; set; }
+        public string ImageData { get; set; }
         // Relations:
         public virtual ICollection<Case>? Cases { get; set; }
     }
