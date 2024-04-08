@@ -49,6 +49,9 @@ To set up and run the Charity System web application on your local machine, plea
   - Review cases assigned to them.
   - Provide reports on each case indicating whether it merits assistance or not.
 
+## Demo
+![Demo](../SDProject/SDProject/Demo.gif)
+
 ## Contributing
 We welcome contributions from the community. If you find any bugs or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
