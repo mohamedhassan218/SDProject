@@ -3,6 +3,9 @@
 ## Overview
 Welcome to our Charity System web application! This system is designed to facilitate the management of charity cases. Admins can input various cases for inspection, and inspectors can review each case and provide a report on whether it merits assistance or not.
 
+See demo here: [link](https://github.com/mohamedhassan218/charity-website/blob/main/SDProject/Demo.gif)
+
+
 ## Technologies Used
 - .NET Framework
 
@@ -48,7 +51,7 @@ To set up and run the Charity System web application on your local machine, plea
   - Log in as an inspector user.
   - Review cases assigned to them.
   - Provide reports on each case indicating whether it merits assistance or not.
-See a demo to the project: [link](https://github.com/mohamedhassan218/charity-website/blob/main/SDProject/Demo.gif)
+
 
 ## Contributing
 We welcome contributions from the community. If you find any bugs or have suggestions for improvements, please feel free to open an issue or submit a pull request.
