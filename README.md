@@ -8,6 +8,8 @@ See demo here: [link](https://github.com/mohamedhassan218/charity-website/blob/m
 
 ## Technologies Used
 - .NET Framework
+- SQL Server
+- Entity Framework
 
 ## Setup Instructions
 To set up and run the Charity System web application on your local machine, please follow these steps:
@@ -15,7 +17,7 @@ To set up and run the Charity System web application on your local machine, plea
 1. Clone the repository to your local machine:
 
    ```
-   git clone git@github.com:mohamedhassan218/SDProject.git
+   git@github.com:mohamedhassan218/charity-website.git
    ```
 
 2. Open the project in your preferred IDE or text editor.
@@ -38,7 +40,6 @@ To set up and run the Charity System web application on your local machine, plea
    dotnet run
    ```
 
-6. Once the project is running, you can access it through your web browser at `http://localhost:7122`
 
 ## Usage
 - **Admin Features:**
@@ -55,6 +56,3 @@ To set up and run the Charity System web application on your local machine, plea
 
 ## Contributing
 We welcome contributions from the community. If you find any bugs or have suggestions for improvements, please feel free to open an issue or submit a pull request.
-
-## License
-This project is licensed under the [MIT License](LICENSE).
